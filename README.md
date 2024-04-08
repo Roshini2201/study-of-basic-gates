@@ -64,16 +64,204 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+**PROGRAM**
+
+**NAME : ROSHINI S**  
+**REGISTER NUMBER : 212223240142**
+
+## AND GATE
+
+**PROGRAM**
+```
+module and12(a,b,c); 
+    input a; 
+    input b; 
+    output c; 
+    assign c = a & b; 
+endmodule 
+```
  
 **Logic symbol & Truthtable**
 
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/911b489f-3174-4859-82e3-2843aae4fdc3)
+
+
+
+**RTL**
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/fd976b82-3257-4cdb-8b52-a68e3810417b)
+
+
+
 **RTL realization Output:** 
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/ca7fb055-d49c-4136-b423-c534d365c69d)
+
+
+## OR GATE
+
+**PROGRAM**
+```
+module orgate(a,b,d); 
+    input a; 
+    input b; 
+    output d; 
+    assign d = a | b; 
+endmodule 
+```
+
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/4590d533-c2d4-42f3-841c-72b3a997c393)
+
+
 
 **RTL**
 
-**Result:**
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/95dc34d9-f505-4002-8e97-80e310256cdc)
 
 
+
+**RTL realization Output:** 
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/82f86db4-3cf3-4ecb-87f5-933a0a759d15)
+
+
+## NOT GATE
+
+**PROGRAM**
+```
+module notgate(a,g); 
+    input a; 
+    output g; 
+    assign g = ~a; 
+endmodule  
+```
+
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/4377a3f8-5709-40be-9c66-60c6ece90b6c)
+
+
+
+**RTL** 
+
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/d188ae6a-390f-4527-a7c1-a8a5c697cb66)
+
+
+**RTL realization Output:**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/5bd53fba-e6a6-4785-b9b3-ab86f63e943c)
+
+
+## NAND GATE
+
+**PROGRAM**
+```
+module nandgate(a,b,e);  
+input a;  
+input b;  
+output e; 
+assign e = ~(a & b);  
+endmodule
+```
+
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/40bc27e7-2e00-4925-b2b5-7938eee39676)
+
+
+
+**RTL**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/5fa912fb-8888-47bb-9396-fd8d29ba454a)
+
+
+
+**RTL realization Output:**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/0c833096-1ed9-41e2-94b0-77e99b46506d)
+
+
+## NOR GATE
+
+**PROGRAM**
+```
+module norgate(a,b,f); 
+ input a; 
+ input b; 
+ output f;
+ assign f = ~(a | b);
+ endmodule 
+```
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/5ad51a9d-69ed-4f91-8fc7-7614f79b31d0)
+
+
+**RTL**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/7eefb84f-8afa-4522-810a-4aaa381474d8)
+
+
+
+**RTL realization Output:**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/2cbd4445-3f53-46ab-a11c-0c054188af5d)
+
+
+
+## EX-OR GATE 
+
+**PROGRAM**
+```
+module xorgate(a,b,h); 
+ input a; 
+input b; 
+output h; 
+assign h = a^ b; 
+endmodule
+```
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/cd7dfb25-bbbb-4619-844d-9f342a053707)
+
+
+
+**RTL** 
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/fe097349-ff0a-4f97-a70f-f9bae5fd49fe)
+
+**RTL realization Output:**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/70ee70ad-7de4-40f2-b515-0d03349f7ef6)
+
+
+## EX-NOR
+
+**PROGRAM**
+```
+module xnorgate(a,b,i);  
+input a; 
+input b; 
+output i; 
+assign i = ~(a ^ b); 
+endmodule 
+```
+**Logic symbol & Truthtable**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/3f566daa-b6fb-4c51-af68-120ac87b2bc6)
+
+
+
+**RTL**
+
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/fcd52932-f098-4e9a-93bf-55f6551ada9b)
+
+
+**RTL realization Output:** 
+![image](https://github.com/Roshini2201/study-of-basic-gates/assets/154105318/19215e27-08d6-4629-9466-2dc49afbb9bd)
+
+**RESULT**
+Thus,truth table of logic gates in Quartus II using Verilog programming is executed successfully and verified.
