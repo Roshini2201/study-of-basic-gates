@@ -61,10 +61,6 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
-**PROGRAM**
-
-
 **PROGRAM**
 
 **NAME : ROSHINI S**  
