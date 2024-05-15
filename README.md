@@ -1,3 +1,6 @@
+## EX.NO:1
+## DATE:
+
 ### study-of-basic-gates
 
 **AIM:** 
